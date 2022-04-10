@@ -1,6 +1,7 @@
-import Bank_params
-class Banks:
-    def __init__(self,name,adress,type):
-        self.name = name
-        self.adress = adress
-        self.type = type
+from Bank_params import Banks
+
+rncb = Banks("RNCB", "Crimea", "commercial")
+tinkof = Banks("Tinkoff", "Europe", "commercial")
+sber = Banks("Sberbank", "Russia", "national")
+
+print(rncb.name, rncb.adress)
