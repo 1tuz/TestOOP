@@ -1,9 +1,9 @@
 
 
 class Banks:
-    def __init__(self, name, adress, btype):
+    def __init__(self, name, fact_adress, btype):
         self.name = name
-        self.adress = adress
+        self.fact_adress = fact_adress
         self.btype = btype
 
 
@@ -12,5 +12,5 @@ tinkof = Banks("Tinkoff", "Europe", "commercial")
 sber = Banks("Sberbank", "Russia", "national")
 
 print(rncb.name)
-print(sber.adress)
-print(tinkof.name,tinkof.adress,tinkof.btype)
+print(sber.fact_adress)
+print(tinkof.name,tinkof.fact_adress,tinkof.btype)
